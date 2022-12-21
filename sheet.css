@@ -1,0 +1,19 @@
+
+    .label-email:hover {
+       color: rgb(231, 20, 20);
+   
+    }
+
+
+   a:visited{
+       color: rgb(20, 248, 12);
+    }
+   a:link{
+       color: rgb(93, 0, 255);
+    } 
+
+    input:focus {
+       background-color: rgb(110, 207, 13);
+
+       color: white;
+    } 

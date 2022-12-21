@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      label:hover::before {
+        background-color: red;
+        display: block;
+        content: "m";
+      }
+
+      h1:hover::after {
+        background-color: red;
+        content: "m";
+      }
+
+      input:focus {
+        background-color: rgb(42, 13, 207);
+
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>CSS before & after</h1>
+
+    <form action="">
+      <label class="label-email" for="email">Email</label>
+      <input type="text" />
+      <label for="password">password</label>
+      <input type="password" />
+      <input type="button" value="Submit" />
+    </form>
+  </body>
+</html>
