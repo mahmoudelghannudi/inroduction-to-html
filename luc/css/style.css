@@ -1,0 +1,256 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.splash-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.more-options {
+    list-style: none;
+    padding: 0;
+}
+
+.more-options li {
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.more-options a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.login-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.nav-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.screen {
+    padding: 20px;
+}
+
+.welcome-message h2 {
+    margin-bottom: 20px;
+}
+
+.shortcuts {
+    margin-bottom: 20px;
+}
+
+.shortcuts button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.announcements h3 {
+    margin-bottom: 10px;
+}
+
+.announcements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.announcements li {
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.quick-tip {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.filter-options {
+    margin-bottom: 20px;
+}
+
+.filter-options button {
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-options button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.filter-options input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.course-list button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-list button.joined {
+    background-color: #28a745;
+}
+
+.tutor-list {
+    list-style: none;
+    padding: 0;
+}
+
+.tutor-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.tutor-info {
+    display: flex;
+    align-items: center;
+}
+
+.tutor-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.exam-list {
+    margin-top: 20px;
+}
+
+.exam-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.exam-item h4 {
+    margin-bottom: 10px;
+}
+
+.exam-item p {
+    margin: 5px 0;
+}
+
+.exam-item textarea {
+    width: 100%;
+    height: 60px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

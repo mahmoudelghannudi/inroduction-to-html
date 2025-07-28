@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="content">
+            <div id="home" class="screen active">
+                <div class="welcome-message">
+                    <h2>Welcome, [Student Name]!</h2>
+                </div>
+                <div class="shortcuts">
+                    <button>Join a Channel</button>
+                    <button>View Exams</button>
+                    <button>Find a Tutor</button>
+                </div>
+                <div class="announcements">
+                    <h3>Latest Announcements</h3>
+                    <ul>
+                        <li>Announcement 1</li>
+                        <li>Announcement 2</li>
+                        <li>Announcement 3</li>
+                    </ul>
+                </div>
+                <div class="quick-tip">
+                    <p><strong>Quick Tip:</strong> Stay organized and make a study plan!</p>
+                </div>
+            </div>
+            <div id="channels" class="screen" style="display: none;">
+                <h2>Channels</h2>
+                <div class="filter-options">
+                    <button class="active">Current Semester</button>
+                    <button>All Courses</button>
+                    <input type="text" placeholder="Search for a course...">
+                </div>
+                <ul class="course-list">
+                    <li>
+                        <span>Course 101</span>
+                        <button>Join</button>
+                    </li>
+                    <li>
+                        <span>Course 102</span>
+                        <button class="joined">Joined</button>
+                    </li>
+                    <li>
+                        <span>Course 103</span>
+                        <button>Join</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="tutors" class="screen" style="display: none;">
+                <h2>Find a Tutor</h2>
+                <div class="filter-options">
+                    <input type="text" placeholder="Search by subject or name...">
+                </div>
+                <ul class="tutor-list">
+                    <li>
+                        <div class="tutor-info">
+                            <img src="assets/tutor1.png" alt="Tutor 1">
+                            <div>
+                                <h4>Tutor Name 1</h4>
+                                <p>Courses: Course 101, Course 102</p>
+                                <p>Rating: 4.5/5</p>
+                            </div>
+                        </div>
+                        <button>Request Session</button>
+                    </li>
+                    <li>
+                        <div class="tutor-info">
+                            <img src="assets/tutor2.png" alt="Tutor 2">
+                            <div>
+                                <h4>Tutor Name 2</h4>
+                                <p>Courses: Course 103</p>
+                                <p>Rating: 5/5</p>
+                            </div>
+                        </div>
+                        <button>Request Session</button>
+                    </li>
+                </ul>
+            </div>
+            <div id="exams" class="screen" style="display: none;">
+                <h2>My Exam Schedule</h2>
+                <div class="filter-options">
+                    <button class="active">Calendar View</button>
+                    <button>List View</button>
+                </div>
+                <div class="exam-list">
+                    <div class="exam-item">
+                        <h4>Course 101 - Final Exam</h4>
+                        <p>Date: 2024-12-15</p>
+                        <p>Time: 10:00 AM</p>
+                        <p>Location: Building A, Room 101</p>
+                        <textarea placeholder="Add personal notes..."></textarea>
+                    </div>
+                    <div class="exam-item">
+                        <h4>Course 102 - Midterm Exam</h4>
+                        <p>Date: 2024-11-20</p>
+                        <p>Time: 2:00 PM</p>
+                        <p>Location: Building B, Room 202</p>
+                        <textarea placeholder="Add personal notes..."></textarea>
+                    </div>
+                </div>
+            </div>
+            <div id="more" class="screen" style="display: none;">
+                <h2>More</h2>
+                <ul class="more-options">
+                    <li><a href="#">Edit Profile</a></li>
+                    <li><a href="#">Language Switch</a></li>
+                    <li><a href="#">Notification Settings</a></li>
+                    <li><a href="#">Saved Resources</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Privacy & Terms</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item active" data-target="home">Home</a>
+            <a href="#" class="nav-item" data-target="channels">Channels</a>
+            <a href="#" class="nav-item" data-target="tutors">Tutors</a>
+            <a href="#" class="nav-item" data-target="exams">Exams</a>
+            <a href="#" class="nav-item" data-target="more">More</a>
+        </nav>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
